@@ -1,5 +1,5 @@
 import * as types from "./types";
-import * as api from "../api/index";
+import * as api from "../../api/index";
 
 export const fetchPosts = () => async (dispatch) => {
   try {

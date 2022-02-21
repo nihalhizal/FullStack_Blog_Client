@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { fetchPosts } from "./actions/post";
+import { fetchPosts } from "./redux/actions/post";
 import {
   BrowserRouter as Router,
   Routes,

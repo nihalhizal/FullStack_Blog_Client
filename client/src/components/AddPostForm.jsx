@@ -17,7 +17,7 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import FileBase64 from "react-file-base64";
 import { useDispatch } from "react-redux";
-import { createPost } from "../actions/post";
+import { createPost } from "../redux/actions/post";
 
 const useStyles = makeStyles((theme) => ({
   paper: {

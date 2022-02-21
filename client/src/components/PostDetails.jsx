@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Paper, Divider, Button, Chip } from "@material-ui/core";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
-import { fetchSinglePost, deletePost } from "../actions/post";
+import { fetchSinglePost, deletePost } from "../redux/actions/post";
 import EditPostForm from "./EditPostForm";
 
 const useStyles = makeStyles((theme) => ({
